@@ -14,7 +14,7 @@
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/@ant-design/icons-svg/-/icons-svg-4.1.0.tgz#480b025f4b20ef7fe8f47d4a4846e4fee84ea06c"
   integrity sha1-SAsCX0sg73/o9H1KSEbk/uhOoGw=
 
-"@ant-design/icons@^4.6.3":
+"@ant-design/icons@^4.0.0", "@ant-design/icons@^4.6.3":
   version "4.6.3"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/@ant-design/icons/-/icons-4.6.3.tgz#cdcccf4df24d51501acef9228444efb7ef8938b1"
   integrity sha1-zczPTfJNUVAazvkihETvt++JOLE=
@@ -1191,7 +1191,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.1.5", "@babel/runtime@^7.10.1", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.15.3"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/@babel/runtime/-/runtime-7.15.3.tgz#2e1c2880ca118e5b2f9988322bd8a7656a32502b"
   integrity sha1-LhwogMoRjlsvmYgyK9inZWoyUCs=
@@ -1272,6 +1272,92 @@
     js-yaml "^3.13.1"
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
+
+"@formily/antd@^2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/antd/download/@formily/antd-2.0.0-rc.2.tgz#81dd3ced30f42ce121e89cebb6ecbdc529ad6c3f"
+  integrity sha1-gd087TD0LOEh6Jzrtuy9xSmtbD8=
+  dependencies:
+    "@ant-design/icons" "^4.0.0"
+    "@formily/core" "2.0.0-rc.2"
+    "@formily/json-schema" "2.0.0-rc.2"
+    "@formily/react" "2.0.0-rc.2"
+    "@formily/reactive" "2.0.0-rc.2"
+    "@formily/reactive-react" "2.0.0-rc.2"
+    "@formily/shared" "2.0.0-rc.2"
+    "@juggle/resize-observer" "^3.3.1"
+    classnames "^2.2.6"
+    react-sortable-hoc "^1.11.0"
+    react-sticky-box "^0.9.3"
+
+"@formily/core@2.0.0-rc.2", "@formily/core@^2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/core/download/@formily/core-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348923442&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Fcore%2Fdownload%2F%40formily%2Fcore-2.0.0-rc.2.tgz#715cae845d638d6a327a3f33953b3be5adaf9144"
+  integrity sha1-cVyuhF1jjWoyej8zlTs75a2vkUQ=
+  dependencies:
+    "@formily/reactive" "2.0.0-rc.2"
+    "@formily/shared" "2.0.0-rc.2"
+    "@formily/validator" "2.0.0-rc.2"
+
+"@formily/json-schema@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/json-schema/download/@formily/json-schema-2.0.0-rc.2.tgz#41285e44cead0670a8d0c36471ecb0d4f8aeaf28"
+  integrity sha1-QSheRM6tBnCo0MNkceyw1Piuryg=
+  dependencies:
+    "@formily/core" "2.0.0-rc.2"
+    "@formily/reactive" "2.0.0-rc.2"
+    "@formily/shared" "2.0.0-rc.2"
+
+"@formily/path@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/path/download/@formily/path-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348921753&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Fpath%2Fdownload%2F%40formily%2Fpath-2.0.0-rc.2.tgz#04d19acfdd43878e1f9f037f93e24dc6d67939c9"
+  integrity sha1-BNGaz91Dh44fnwN/k+JNxtZ5Ock=
+
+"@formily/react@2.0.0-rc.2", "@formily/react@^2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/react/download/@formily/react-2.0.0-rc.2.tgz#d0c53ea2583a573a6a0e72ef2ab806062f726f49"
+  integrity sha1-0MU+olg6VzpqDnLvKrgGBi9yb0k=
+  dependencies:
+    "@formily/core" "2.0.0-rc.2"
+    "@formily/json-schema" "2.0.0-rc.2"
+    "@formily/reactive" "2.0.0-rc.2"
+    "@formily/reactive-react" "2.0.0-rc.2"
+    "@formily/shared" "2.0.0-rc.2"
+    "@formily/validator" "2.0.0-rc.2"
+    hoist-non-react-statics "^3.3.2"
+
+"@formily/reactive-react@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/reactive-react/download/@formily/reactive-react-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348922548&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Freactive-react%2Fdownload%2F%40formily%2Freactive-react-2.0.0-rc.2.tgz#860a788673452887ef5225c195116367bbccdc79"
+  integrity sha1-hgp4hnNFKIfvUiXBlRFjZ7vM3Hk=
+  dependencies:
+    "@formily/reactive" "2.0.0-rc.2"
+    hoist-non-react-statics "^3.3.2"
+
+"@formily/reactive@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/reactive/download/@formily/reactive-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348922013&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Freactive%2Fdownload%2F%40formily%2Freactive-2.0.0-rc.2.tgz#e94d433a69e6e84c92a9edd8acb19217796e2687"
+  integrity sha1-6U1DOmnm6EySqe3YrLGSF3luJoc=
+
+"@formily/shared@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/shared/download/@formily/shared-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348922983&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Fshared%2Fdownload%2F%40formily%2Fshared-2.0.0-rc.2.tgz#5e8797d62e3f85bf6c8d84e5533894d30359bfcb"
+  integrity sha1-XoeX1i4/hb9sjYTlUziU0wNZv8s=
+  dependencies:
+    "@formily/path" "2.0.0-rc.2"
+    camel-case "^4.1.1"
+    lower-case "^2.0.1"
+    no-case "^3.0.4"
+    param-case "^3.0.4"
+    pascal-case "^3.1.1"
+    upper-case "^2.0.1"
+
+"@formily/validator@2.0.0-rc.2":
+  version "2.0.0-rc.2"
+  resolved "https://registry.nlark.com/@formily/validator/download/@formily/validator-2.0.0-rc.2.tgz?cache=0&sync_timestamp=1629348923721&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40formily%2Fvalidator%2Fdownload%2F%40formily%2Fvalidator-2.0.0-rc.2.tgz#c99b66a047c71bfcabc55b5bb3cfaddfb490ac3c"
+  integrity sha1-yZtmoEfHG/yrxVtbs8+t37SQrDw=
+  dependencies:
+    "@formily/shared" "2.0.0-rc.2"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1516,6 +1602,11 @@
     "@types/node" "*"
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
+
+"@juggle/resize-observer@^3.3.1":
+  version "3.3.1"
+  resolved "https://registry.nlark.com/@juggle/resize-observer/download/@juggle/resize-observer-3.3.1.tgz#b50a781709c81e10701004214340f25475a171a0"
+  integrity sha1-tQp4FwnIHhBwEAQhQ0DyVHWhcaA=
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -6214,6 +6305,13 @@ internal-slot@^1.0.3:
     has "^1.0.3"
     side-channel "^1.0.4"
 
+invariant@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.npm.taobao.org/invariant/download/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
+  integrity sha1-YQ88ksk1nOHbYW5TgAjSP/NRWOY=
+  dependencies:
+    loose-envify "^1.0.0"
+
 ip-regex@^2.1.0:
   version "2.1.0"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
@@ -7490,7 +7588,7 @@ loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.2.0, loose-envify@^1.3
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
-lower-case@^2.0.2:
+lower-case@^2.0.1, lower-case@^2.0.2:
   version "2.0.2"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/lower-case/-/lower-case-2.0.2.tgz#6fa237c63dbdc4a82ca0fd882e4722dc5e634e28"
   integrity sha1-b6I3xj29xKgsoP2ILkci3F5jTig=
@@ -8356,9 +8454,9 @@ parallel-transform@^1.1.0:
     inherits "^2.0.3"
     readable-stream "^2.1.5"
 
-param-case@^3.0.3:
+param-case@^3.0.3, param-case@^3.0.4:
   version "3.0.4"
-  resolved "http://npm.ihr360.com/repository/irenshi-npm-group/param-case/-/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
+  resolved "https://registry.npm.taobao.org/param-case/download/param-case-3.0.4.tgz#7d17fe4aa12bde34d4a77d91acfb6219caad01c5"
   integrity sha1-fRf+SqEr3jTUp32RrPtiGcqtAcU=
   dependencies:
     dot-case "^3.0.4"
@@ -8415,7 +8513,7 @@ parseurl@~1.3.2, parseurl@~1.3.3:
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ=
 
-pascal-case@^3.1.2:
+pascal-case@^3.1.1, pascal-case@^3.1.2:
   version "3.1.2"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/pascal-case/-/pascal-case-3.1.2.tgz#b48e0ef2b98e205e7c1dae747d0b1508237660eb"
   integrity sha1-tI4O8rmOIF58Ha50fQsVCCN2YOs=
@@ -9357,7 +9455,7 @@ prompts@^2.0.1:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.6.2, prop-types@^15.7.2:
+prop-types@^15.5.7, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha1-UsQedbjIfnK52TYOAga5ncv/psU=
@@ -9991,6 +10089,15 @@ react-router@5.2.0:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
+react-sortable-hoc@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.npm.taobao.org/react-sortable-hoc/download/react-sortable-hoc-1.11.0.tgz?cache=0&sync_timestamp=1616123350417&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-sortable-hoc%2Fdownload%2Freact-sortable-hoc-1.11.0.tgz#fe4022362bbafc4b836f5104b9676608a40a278f"
+  integrity sha1-/kAiNiu6/EuDb1EEuWdmCKQKJ48=
+  dependencies:
+    "@babel/runtime" "^7.2.0"
+    invariant "^2.2.4"
+    prop-types "^15.5.7"
+
 react-spring@^9.2.4:
   version "9.2.4"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/react-spring/-/react-spring-9.2.4.tgz#9d89b0321664d594f957dca9459b13d94b3dfa39"
@@ -10002,6 +10109,14 @@ react-spring@^9.2.4:
     "@react-spring/three" "~9.2.0"
     "@react-spring/web" "~9.2.0"
     "@react-spring/zdog" "~9.2.0"
+
+react-sticky-box@^0.9.3:
+  version "0.9.3"
+  resolved "https://registry.nlark.com/react-sticky-box/download/react-sticky-box-0.9.3.tgz#8450d4cef8e4fdd7b0351520365bc98c97da11af"
+  integrity sha1-hFDUzvjk/dewNRUgNlvJjJfaEa8=
+  dependencies:
+    "@babel/runtime" "^7.1.5"
+    resize-observer-polyfill "^1.5.1"
 
 react@^17.0.2:
   version "17.0.2"
@@ -11729,6 +11844,13 @@ upath@^1.1.1, upath@^1.1.2, upath@^1.2.0:
   version "1.2.0"
   resolved "http://npm.ihr360.com/repository/irenshi-npm-group/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha1-j2bbzVWog6za5ECK+LA1pQRMGJQ=
+
+upper-case@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.npm.taobao.org/upper-case/download/upper-case-2.0.2.tgz#d89810823faab1df1549b7d97a76f8662bae6f7a"
+  integrity sha1-2JgQgj+qsd8VSbfZenb4Ziuub3o=
+  dependencies:
+    tslib "^2.0.3"
 
 uri-js@^4.2.2:
   version "4.4.1"
